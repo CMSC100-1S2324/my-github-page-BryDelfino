@@ -1,0 +1,148 @@
+body{
+    background-image: url("images/bg.png");
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: #688bcb;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: initial;
+}
+
+.header-directory{
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    flex: auto;
+    text-align: center;
+    box-shadow: 2px 2px;
+    border-radius: 10px;
+    background-color:#40E0D0; 
+    margin: 10px; 
+}
+
+.header-logo{
+    height: 10%;
+    width: 10%;
+    padding: 20px;
+    justify-content: left;
+    overflow: hidden;
+}
+
+.middle{
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+#featured-photo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size:40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: initial;
+}
+.photo-avatar{
+    width:40%;
+    height:auto;
+    border-radius: 50%;
+}
+#previous-projects{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size:40px;
+    flex:auto;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.project-image{
+    width: 20%;
+    height: auto;
+    border-radius: 20%;
+    padding: 10px;
+}
+#skills-and-autobiography{
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    bottom: 0px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.container {
+    display: inline-block;
+    vertical-align:top;
+    text-align: justify;
+    background-color: rgb(199, 184, 184);
+    border-radius: 10px;
+    border-color: rgb(199, 184, 184);
+    padding: 10px;
+    margin: 5px;
+}
+
+#skills{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size:40px;
+}
+#autobiography{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size:40px;
+}
+.entry{
+    text-align: center;
+    font-size:20px;
+    font-family: Arial;
+
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #808080;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+
+.footer-logo{
+    width: 100%;
+    justify-content: space-evenly;
+    object-position: left;
+    height: 10%;
+    width: 10%;
+    padding: 15px; 
+    opacity: 0.5;
+}
+.footer-text{
+    text-align:justify;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+.directory{
+    text-decoration: none;
+    color:#708090;
+}
+#back-to-top{
+    color:black;
+}
+
+li{
+    font-size:20px;
+    font-family: Arial;  
+}
